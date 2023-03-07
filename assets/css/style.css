@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Raleway:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  object-fit: cover;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-weight: bold;
+  font-family: raleway;
+  color: #ff7d00;
+  background-color: black;
+  min-width: 844px;
+ display: block;
+}
+
+
+h2 {
+  font-family: phudu;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 280%;
+  color: #ffeb00;
+  letter-spacing: 15px;
+  
+}
+
+#logo {
+  float: none;
+  font-size: 200%;
+  margin-left: 30px;
+ 
+ 
+}
+
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#logo,
+menu {
+  line-height: 75px;
+ 
+}
+
+#menu li {
+  float: none;
+  margin-right: 0;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #777777;
+}
+
+.active {
+  border-bottom: 1px solid #777777;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1594086054491-73d65d3269b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&w=1000&q=80") no-repeat center center;
+}
+
+#hero-image {
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  min-width: 844px;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1.9);
+  }
+
+  to {
+    transform: scale(1.8);
+  }
+}
+
+#cover-text,
+#cover-text h4 {
+  color: #ffffff;
+  font-family: raleway;
+}
+
+#cover-text,
+#cover-text h3 {
+  font-weight: 700;
+  color: #ffffff;
+  font-family: raleway;
+}
+
+#cover-text {
+  font-size: 120%;
+  font-family: raleway;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  background-color: rgba(255, 164, 33, .7);
+  bottom: 30px;
+  right: 150px;
+  position: absolute;
+}
+
+#main-page {
+  height: 600px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#left-about {
+  width: 25%;
+}
+
+#right-about {
+  width: 25%;
+}
+
+#center-about {
+  clear: both;
+  width: 25%;
+}
+
+
+
+hr {
+  border-top: 1px solid;
+  color: #777777;
+  margin: 5px;
+  width: 100%;
+}
+
+hr {
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px 0;
+}
+
+#welcome {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 280%;
+}
+
+#left-head p {
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+  line-height: 35px;
+}
+
+#left-head {
+  line-height: 35px;
+}
+
+#center-head {
+  line-height: 35px;
+}
+
+#right-head {
+  line-height: 35px;
+}
+
+#right-head p {
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+  line-height: 35px;
+}
+
+#center-head p {
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+  line-height: 35px;
+}
+
+#tiles {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Marine_Life_Banner.jpg/2560px-Marine_Life_Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  min-width: 844px;
+}
+
+#tiles div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 198, .5);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+#tiles h2 {
+  color: #fafafa;
+}
+
+#intro {
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: x-large;
+}
+
+#intro h3 {
+  line-height: 30px;
+}
+
+#spotlight-1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#spotlight-1 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#spotlight-2 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#spotlight-2 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#spotlight-3 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#spotlight-3 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#spotlight-4 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#spotlight-4 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#spotlight-5 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#spotlight-5 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#spotlight-6 {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#spotlight-6 h2 {
+  text-align: left;
+  font-size: medium;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  width: 50%;
+}
+
+#winner {
+  background-color: rgba(255, 164, 33, .9);
+  font-family: raleway;
+  height: 80px;
+  width: 300px;
+  z-index: 1;
+  left: 52px;
+  top: 2585px;
+  clear: both;
+  position: absolute;
+}
+
+#winner h2 {
+  color: #fafafa;
+  text-align: center;
+  font-size: 160%;
+  letter-spacing: 3px;
+}
+
+#end-1 {
+  background-color: rgba(255, 164, 33, .9);
+  font-family: raleway;
+  height: 80px;
+  width: 300px;
+  z-index: 1;
+  left: 52px;
+  top: 1000px;
+  clear: both;
+  position: absolute;
+}
+
+#end-1 h2 {
+  color: #fafafa;
+  text-align: center;
+  font-size: 160%;
+  letter-spacing: 3px;
+}
+
+#end-2 {
+  background-color: rgba(255, 164, 33, .9);
+  font-family: raleway;
+  height: 80px;
+  width: 300px;
+  z-index: 1;
+  left: 202px;
+  top: 2170px;
+  clear: both;
+  position: absolute;
+}
+
+#end-2 h2 {
+  color: #fafafa;
+  text-align: center;
+  font-size: 160%;
+  letter-spacing: 3px;
+}
+
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
+}
+
+
+.form-section {
+  clear: left;
+  background: url("https://static.scientificamerican.com/sciam/cache/file/B7E980C5-B182-4A2E-80369F2AC535EB35_source.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.signup-form>h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ffeb00;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #ff7d00;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #ffeb00;
+  color: black;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #ff7d00;
+  color: #ffeb00;
+}
+
+@media screen and (max-width: 1396px) {
+  #main-page {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  #welcome {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+
+
+  #tiles div {
+    width: 100%;
+    clear: both;
+    height: 150%;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffffff;
+  }
+
+  hr {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 943px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #cover-text {
+    left: 0px;
+  }
+
+  #main-page {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+    display: grid;
+    min-width: 844px;
+  }
+
+  .left-about-heading,
+  .right-about-heading
+  .center-about-heading {
+    width: inherit;
+    display: grid;
+  }
+
+  .left-about-heading,
+  h2 .right-about-heading,
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #spotlight {
+    column-count: 3;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  #spotlight {
+    column-count: 2;
+  }
+}

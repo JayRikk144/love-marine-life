@@ -1,0 +1,90 @@
+<!-- head element and boilerplate code including link to css stylesheet and source 
+  link to fontawesoem icons start here-->
+<!DOCTYPE html>
+<html>
+<!--Head element starts here-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Love Marine Life</title>
+  <script src="https://kit.fontawesome.com/84b5438a0a.js" crossorigin="anonymous"></script>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--html body starts here-->
+
+<body>
+  <!--header element starts here-->
+  <header>
+    <a href="index.html">
+      <h2 id="logo">Love Marine Life</h2>
+      <!--styled h2 element with-->
+    </a>
+    <nav>
+      <!--Nav element below holds the naviagtion menu and the three seperate pages with representing active classes and href links-->
+      <ul id="menu">
+        <li>
+          <a href="index.html">Home
+        </li>
+        <br>
+        <li>
+          <a href="spotlight.html">Spotlight</a>
+        </li>
+        <br>
+        <li>
+          <a class="active" href="newsletter.html">Newsletter</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--Header element finshes here-->
+
+  <!--Form section begins here; includes i links to font-awesome icons. Input types inlcude text, 
+    radio button and submit-->
+  <section class="form-section">
+    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+      <h2>Stay Up To Date With Our Bio-Monthly Newsletter! <i class="fa-solid fa-newspaper"></i> </h2>
+      <label for="fname">First Name</label>
+      <input id="fname" class="text-input" type="text" name="first_name" required />
+      <label for="lname">Last Name</label>
+      <input id="lname" class="text-input" type="text" name="last_name" required />
+      <label for="email">Email Address</label>
+      <input id="email" class="text-input" type="email" name="email_address" required />
+      <label for="hear">Whos your favourite spotlight member?</label>
+
+      <select class="text-input" id="fave" name="fave" required>
+        <option value="green-sea-turtle">Green Sea Turtle</option>
+        <option value="mantis-shrimp">Mantis Shrimp</option>
+        <option value="humpback-whale">Humpback Whale</option>
+        <option value="sea-otter">Sea Otter</option>
+        <option value="yellow-tang">Yellow Tang</option>
+        <option value="box-jelly">Box Jellyfish</option>
+      </select>
+
+      <input class="join-button" type="submit" value="Sign Me Up!" required />
+
+    </form>
+  </section>
+  <!--Form sectiopn ends here-->
+
+
+  <!--Footer elements start here, contains li elemets depicting social media icons with relatvie 
+    href links and blank (new tab) targets alongside relevant font awesome icons included-->
+  <footer>
+    <ul class="social-networks">
+      <li><a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a> </li>
+      <li><a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i> </a> </li>
+      <li><a href="https://www.youtube.com" target="_blank">
+          <i class="fa-brands fa-youtube"></i> </a> </li>
+      <li><a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i> </a></li>
+    </ul>
+  </footer>
+  <!--footer element ends here-->
+
+  <!--boilerplate end code starts here-->
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
